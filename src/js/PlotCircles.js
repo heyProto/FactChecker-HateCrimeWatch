@@ -1,5 +1,4 @@
 import React from 'react';
-import Util from '../js/Utility';
 
 class PlotCircles extends React.Component { 
   render() {
