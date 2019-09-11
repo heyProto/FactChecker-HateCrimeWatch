@@ -47,7 +47,7 @@
   color: #787878;
   font-size: 12px;
   line-height: 17px;
-  color:rgba(50, 138, 171); }
+  color:#e03832; }
 
 .proto-card .card-img {
   padding-left: 0px; }
@@ -124,7 +124,7 @@
   padding: 0px 10px; } */
 
 .filter-title {
-  background:rgba(50, 138, 171);
+  background:#e03832;
   color: white;
   padding: 20px 10px 10px 10px;
   position: relative;
@@ -149,8 +149,8 @@
 }
 
 .active-tab {
-  color:rgba(50, 138, 171);
-  border-color:rgba(50, 138, 171);
+  color:#e03832;
+  border-color:#e03832;
 }
 
 .tabs {
@@ -173,7 +173,7 @@
 }
 
 .protograph-app-active-tab {
-  background:rgba(50, 138, 171);
+  background:#e03832;
 }
 
 .protograph-app-tabs-container {
@@ -285,8 +285,8 @@
   overflow-y: auto;
 }
 .protograph-card{
-  width: 140px;
-  height: 140px;
+  width: 220px;
+  height: 230px;
   cursor: pointer;
   display: inline-block;
   text-align: left;
@@ -321,13 +321,13 @@
   border-radius: 5px;
   width: fit-content;
   width: -moz-fit-content;
-  color: rgba(50, 138, 171);
+  color: #cd1713;
   font-family: AvenirLTStd-Book;
   font-size: 12px;
   letter-spacing: 1px;
   font-weight: lighter;
   margin-bottom: 10px;
-  border: 1px solid rgba(50, 138, 171);
+  border: 1px solid #cd1713;
 }
 .proto-card-location{
   font-family: Avenir-Bold;
@@ -457,7 +457,7 @@
 }
 
 .protograph-app-filter-close-button {
-  padding: 18px 20px 17px 20px
+  padding: 17px 20px 18px 20px
 }
 
 .protograph-app-filter-icon-slide-down {
@@ -542,7 +542,7 @@
   right: -15px;
   height: 30px;
   width: 30px;
-  background:rgba(50, 138, 171);
+  background:#e03832;
   color: white;
   text-align: center;
   border-radius: 50%;
@@ -565,7 +565,7 @@
 }
 
 .article-share-icons{
-  background: rgba(50, 138, 171);
+  background: #cd1713;
   width: 300px;
   display: inline-block;
   text-align: center;
@@ -780,7 +780,7 @@
   background-color: #efefef;
   display: inline-block;
   flex-direction: row;
-  color: rgba(50, 138, 171);
+  color: crimson;
   border-radius: 50%;
   /* font-weight: bolder; */
   border: 2px solid white;
@@ -791,7 +791,7 @@
 }
 
 .zoom-button:hover {
-  background-color: rgba(50, 138, 171);
+  background-color: crimson;
   color: #efefef;
 }
 

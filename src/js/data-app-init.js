@@ -6,7 +6,7 @@ ProtoGraph.initDataApp = function () {
     x.init({
         selector: document.querySelector('#card-list-div'),
         dataURL: streams.Grid.url,
-        topoURL: 'https://www.hatecrimewatch.in/data/india-topo.json',
+        topoURL: 'https://p.factchecker.in/data/india-topo.json',
         chartOptions: {
             height: 700,
             defaultCircleColor: ProtoGraph.site['house_colour']
@@ -23,12 +23,36 @@ ProtoGraph.initDataApp = function () {
         },
         filters: [
             {
-                "alias": "Active",
-                "propName": "active"
+                "alias": "Year",
+                "propName": "year"
             },
             {
-                "alias": "Role",
-                "propName": "leadership_role"
+                "alias": "State",
+                "propName": "state"
+            },
+            {
+                "alias": "Context/bias indicator",
+                "propName": "pretext_to_incident"
+            },
+            {
+                "alias": "Party in power",
+                "propName": "party_in_power"
+            },
+            {
+                "alias": "Type of assault",
+                "propName": "type_of_assault"
+            },
+            {
+                "alias": "Source",
+                "propName": "type_of_source"
+            },
+            {
+                "alias": "Is FIR registered?",
+                "propName": "is_fir_registered"
+            },
+            {
+                "alias": 'Is Cross FIR registered?',
+                "propName": "is_cross_fir_registered"
             }
         ]
     });
